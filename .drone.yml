@@ -13,6 +13,6 @@ steps:
     settings:
       username:
         from_secret: deploy_user
-      ssh_key:
+      password:
         from_secret: deploy_key
       pages_directory: build/
