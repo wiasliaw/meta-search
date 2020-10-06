@@ -8,7 +8,6 @@ steps:
     commands:
       - npm install
       - npm run build
-      - touch public/.nojekyll
 
   - name: publish
     image: plugins/gh-pages
